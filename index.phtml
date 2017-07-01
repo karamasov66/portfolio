@@ -1,0 +1,260 @@
+<?php session_start(); ?>
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Portfolio</title>
+	
+</head>
+<body>
+	<header>
+		<nav id="topNav">
+			<ul>
+				<li><a href="#home">Accueil</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#skills">Compétences</a></li>
+				<li><a href="#projects">Projets</a></li>
+				<li><a href="#about">A propos</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
+		<div id="socialNetworks">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+		</div>
+	</header>
+	<main>
+		<nav id="sideNav">
+			<ul>
+				<li><a class="active" href="#home">Accueil <div class="pastilles"></div></a></li>
+				<li><a href="#services">Services <div class="pastilles"></div></a></li>
+				<li><a href="#skills">Compétences <div class="pastilles"></div></a></li>
+				<li><a href="#projects">Projets <div class="pastilles"></div></a></li>
+				<li><a href="#about">A propos <div class="pastilles"></div></a></li>
+				<li><a href="#contact">Contact <div class="pastilles"></div></a></li>
+			</ul>
+		</nav>
+
+		<div id="home" data-crossfade-start="img/home/elephant.jpg" data-crossfade-end="img/home/elephantBlur.jpg">
+			<div class="wrapper">
+				<div id="title">
+				    <h1>Xavier Michy</h1>
+				    <h2>Développeur/Intégrateur web</h2>
+			    </div>
+			</div>    
+	    </div>				
+		<div id="services">
+			<div class="wrapper">
+			    <h2>Services</h2>
+			    <div class="title-separator">
+			    	<span></span>
+			    </div>
+			    <p>Le développement d'un site web est la pierre angulaire de votre stratégie de communication. Les services que je propose sont étudiés pour répondre au mieux à vos attentes.<!--Volé sur wax my web--></p>
+			</div>
+			<div class="wrapper">
+				<section>
+					<div>
+						<i class="fa fa-desktop"></i>
+					</div>
+					<h4>Site vitrine</h4>
+					<p>Développement d'un vitrine digital pour votre activitée.</p>
+				</section>
+				<section>
+					<div>
+						<i class="fa fa-shopping-cart"></i>
+					</div>
+					<h4>E-Commerce</h4>
+					<p>Un commerce? Une marque? Vendez sur inernet.</p>
+				</section>
+				<section>
+					<div>
+						<i class="fa fa-mobile"></i>
+					</div>
+					<h4>Responsive</h4>
+					<p>Votre communication est-elle adaptée aux enjeux mobiles?</p>
+				</section>
+			</div>
+		</div>
+
+		<div id="banner1" class="banner" data-stellar-background-ratio="0.5">
+			<p><i class="fa fa-quote-left"></i>Constamment à la recherche de nouvelles compétences qui nourissent mes projets<i class="fa fa-quote-right"></i></p>
+		</div>
+
+		<div id="skills">
+			<h2>Compétences</h2>
+			<div class="title-separator">
+		    	<span></span>
+		    </div>
+			<section class="wrapper">
+				<figure>
+					<img src="img/skills/html5.png" alt="Html 5">
+					<figcaption>Html 5</figcaption>
+				</figure>
+				<figure>
+					<img src="img/skills/css3.png" alt="CSS 3">
+					<figcaption>CSS 3</figcaption>
+				</figure>	
+				<figure>	
+					<img src="img/skills/js.png" alt="Javascript">
+					<figcaption>Javascript</figcaption>
+				</figure>	
+				<figure>	
+					<img src="img/skills/jquery.png" alt="JQuery">
+					<figcaption>JQuery</figcaption>
+				</figure>	
+				<figure>	
+					<img src="img/skills/php.jpg" alt="Php">
+					<figcaption>Php</figcaption>
+				</figure>	
+				<figure>	
+					<img src="img/skills/mysql.png" alt="MySql">
+					<figcaption>MySql</figcaption>
+				</figure>	
+				<figure>	
+					<img src="img/skills/bootstrap.png" alt="Bootstrap">
+					<figcaption>Bootstrap</figcaption>
+				</figure>	
+				<figure>	
+					<img src="img/skills/responsive.png" alt="Responsive">
+					<figcaption>Responsive</figcaption>
+				</figure>	
+			</section>
+		</div>
+
+		<div id="banner2" class="banner" data-stellar-background-ratio="0.5">
+			<p><i class="fa fa-quote-left"></i>Votre satisfaction, la qualité et l'expérience utilisateur sont au centre de mes objectifs<i class="fa fa-quote-right"></i></p>
+		</div>
+
+		<div id="projects">
+			<h2>Sélections de réalisations</h2>
+			 <div class="title-separator">
+		    	<span></span>
+		    </div>
+			<div class="wrapper">
+				<div class="img">
+					<img src="img/realisations/real1.jpg" alt="projet">
+					<div class="overlay">
+						<a href="#" class="expand">+</a>
+						<a class="close-overlay hidden">X</a>
+						<h4>So_Shoot Photography</h4>
+						<p>Site réalisé pour un photographe semi-professionnel. Développé à partir d'un CMS afin de rendre simple et intuitive l'administration du site. </p>
+					</div>
+				</div>
+				<div class="img">
+					<img src="img/realisations/real2.jpg" alt="projet">
+					<div class="overlay">
+						<a href="#" class="expand">+</a>
+						<a class="close-overlay hidden">X</a>
+						<h4>So_Shoot Photography</h4>
+						<p>Site réalisé pour un photographe semi-professionnel. Développé à partir d'un CMS afin de rendre simple et intuitive l'administration du site. </p>
+					</div>
+				</div>
+				<div class="img">
+					<img src="img/realisations/real3.jpg" alt="projet">
+					<div class="overlay">
+						<a href="#" class="expand">+</a>
+						<a class="close-overlay hidden">X</a>
+						<h4>So_Shoot Photography</h4>
+						<p>Site réalisé pour un photographe semi-professionnel. Développé à partir d'un CMS afin de rendre simple et intuitive l'administration du site. </p>
+					</div>
+				</div>
+				<div class="img">
+					<img src="img/realisations/toile.jpg" alt="votre-projet">
+					<div class="overlay">
+						<a href="#contact" class="expand">+</a>
+						<a class="close-overlay hidden">X</a>
+						<h4>Votre projet!</h4>
+						<p>Site réalisé en fonction de vos besoins pour un rendu fidèle à vos attentes</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="about">
+			<div class="blurImg">
+			<div class="kinsale" data-stellar-background-ratio="0.2"></div>
+			<div class="kinsaleBlur" data-stellar-background-ratio="0.2"></div>
+			</div>
+			<div>
+				<h2>A propos de moi</h2>
+				 <div class="title-separator">
+			    	<span></span>
+			    </div>
+				<div class="wrapper">
+					<p>Passionné par le web depuis très longtemps, c'est récemment que j'ai décidé de m'y investir professionellement. Après avoir validé une formation intensive à la 3WAcademy, une école spécialisée dans le développement et l'intégration web, j'ai continué à apprendre de manière autodidacte notamment par le biais de différents projets web que j'ai réalisés.</p>
+				</div>
+			</div>
+		</div>
+		<div id="contact">
+			<h2>Laissez moi un mail pour parler de votre projet</h2>
+			<div class="title-separator">
+		    	<span></span>
+		    </div>
+			<div class="wrapper">
+
+				<?php if(array_key_exists('errors', $_SESSION)): ?>
+		    	<div>
+		    	<?= implode('<br>', $_SESSION['errors']); ?>
+		    	</div>
+		    	<?php endif; ?>
+		    	<?php if(array_key_exists('success', $_SESSION)): ?>
+		    	<div>
+		    	<?= $_SESSION['success']; ?>
+		    	</div>
+		    	<?php endif; ?>
+
+				<form action="contact.php" method="POST">
+					<div class="field">
+						<label for="name" class="field-label" >Votre nom</label>
+						<input class="field-input" type="text" id="name" name="name" value="<?= isset($_SESSION['inputs']['name']) ? $_SESSION['inputs']['name'] : ""; ?>">
+					</div>
+					<div class="field">
+						<label for="email" class="field-label">Votre email</label>
+						<input class="field-input" type="text" id="email"  name="email" value="<?= isset($_SESSION['inputs']['email']) ? $_SESSION['inputs']['email'] : ""; ?>">
+					</div>
+					<div class="field textarea">
+						<label for="message" class="field-label">Votre message</label>
+						<textarea class="field-input" id="message" name="message" rows="10" cols="50"><?= isset($_SESSION['inputs']['message']) ? $_SESSION['inputs']['message'] : ""; ?></textarea>
+					</div>
+					<div class="submit">
+						<span id="border-top"></span>
+						<span id="border-right"></span>
+						<span id="border-bottom"></span>
+						<span id="border-left"></span>
+						<input type="submit" id="submit-contact-form" name="submit" value="Envoyer">
+					</div>
+				</form>
+			</div>	
+		</div>
+	</main>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script>
+		$(document).ready(function () {
+			$(window).stellar();
+            $('#home').crossfade({
+                threshold : 0.5
+            });
+		});
+	</script>
+	<script type="text/javascript" src="js/modernizr-touch.js"></script>
+	<script type="text/javascript" src="js/header.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript" src="js/overlay.js"></script>
+	<script type="text/javascript" src="js/crossfade.js"></script>
+	<script type="text/javascript" src="js/form.js"></script>
+
+</body>
+</html>
+
+<?php 
+	unset($_SESSION['errors']);
+	unset($_SESSION['inputs']);
+	unset($_SESSION['success']);
+?>

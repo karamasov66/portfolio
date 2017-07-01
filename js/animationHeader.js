@@ -1,0 +1,1 @@
+petite boule qui part  de la gauche de l ecran et qd elle touche accueil ca le surligne
